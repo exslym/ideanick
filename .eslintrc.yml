@@ -6,12 +6,12 @@ ignorePatterns:
   - dist
 root: true
 rules:
-  # import/order:
-  # - error
-  # - alphabetize:
-  #     order: asc
-  #     caseInsensitive: false
-  #     orderImportKind: asc
+  import/order:
+    - error
+    - alphabetize:
+        order: asc
+        caseInsensitive: false
+        orderImportKind: asc
   '@typescript-eslint/consistent-type-definitions':
     - error
     - type
