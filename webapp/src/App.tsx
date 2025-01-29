@@ -5,6 +5,8 @@ import { TRPCProvider } from './lib/trpc';
 import { AllIdeasPage } from './pages/AllIdeasPage';
 import { ViewIdeaPage } from './pages/ViewIdeaPage';
 
+import './styles/global.scss';
+
 export const App = () => {
   return (
     <TRPCProvider>

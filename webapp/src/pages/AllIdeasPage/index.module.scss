@@ -1,0 +1,34 @@
+@import '../../styles/vars';
+@import '../../styles/mixins';
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.title {
+  @include h2;
+  margin-bottom: 15px;
+}
+
+.ideas {
+  .idea {
+    padding: 20px;
+    border: 1px solid $black;
+    border-radius: 10px;
+
+    & + .idea {
+      margin-top: 20px;
+    }
+
+    .ideaName {
+      @include h3;
+    }
+    .ideaLink {
+      @include link;
+    }
+  }
+
+  .more {
+    margin-top: 15px;
+  }
+}
