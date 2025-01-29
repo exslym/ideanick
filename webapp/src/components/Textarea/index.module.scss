@@ -1,0 +1,32 @@
+@import '../../styles/vars';
+@import '../../styles/mixins';
+
+.field {
+  margin-top: 12px;
+
+  .label {
+    font-weight: normal;
+    margin-bottom: 2px;
+    display: block;
+  }
+
+  .input {
+    min-height: 150px;
+    width: 100%;
+    max-width: none;
+    resize: vertical;
+
+    &:focus {
+      border-color: $blue;
+    }
+
+    &.invalid {
+      border-color: $red;
+    }
+  }
+
+  .error {
+    margin-top: 2px;
+    color: $red;
+  }
+}
