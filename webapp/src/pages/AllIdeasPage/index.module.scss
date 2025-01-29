@@ -5,11 +5,6 @@
   margin-bottom: 20px;
 }
 
-.title {
-  @include h2;
-  margin-bottom: 15px;
-}
-
 .ideas {
   .idea {
     padding: 20px;
@@ -20,15 +15,8 @@
       margin-top: 20px;
     }
 
-    .ideaName {
-      @include h3;
-    }
     .ideaLink {
       @include link;
     }
-  }
-
-  .more {
-    margin-top: 15px;
   }
 }

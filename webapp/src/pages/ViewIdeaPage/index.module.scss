@@ -1,15 +1,6 @@
 @import '../../styles/_vars';
 @import '../../styles/_mixins';
 
-.title {
-  @include h2;
-  margin-bottom: 10px;
-}
-
-.more {
-  @include h3;
-}
-
 .createdAt {
   font-size: 12px;
   margin-bottom: 10px;
@@ -60,10 +51,7 @@
 .text {
   font-size: 14px;
 
-  // & > *:not(:first-child) {
-  //   margin-top: 10px;
-  // }
-  & > * {
+  & > *:not(:first-child) {
     margin-top: 10px;
   }
 }
