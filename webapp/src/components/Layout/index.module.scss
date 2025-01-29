@@ -1,5 +1,5 @@
-@import '../../styles/_vars';
-@import '../../styles/_mixins';
+@import '../../styles/vars';
+@import '../../styles/mixins';
 
 $breakpoint: '<=900px';
 
@@ -35,6 +35,7 @@ $breakpoint: '<=900px';
 
     .menu {
       margin-top: 5px;
+
       .item {
         &:not(:first-child) {
           margin-top: 5px;
